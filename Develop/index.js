@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 inquirer.prompt([
@@ -27,16 +28,35 @@ inquirer.prompt([
     }, {
         type: 'list',
         message: 'Did you use a license?',
-        choices: ['Apache 2.0', 'Boost','BSD 3-Clause','BSD 2-Clause','CC0','Attribution 4.0 International','Eclipse Public License 1.0','GNU','IBM','ISC','MIT','Mozilla','SIL'],
+        choices: ['Apache License 2.0','GNU General Public License v3.0','MIT License','BSD 2-Clause "Simplified" License','BSD 3-Clause "New" or "Revised" License','Boost Software License 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public License 2.0','GNU Affero General Public License v3.0','GNU General Public License v2.0','GNU Lesser General Public License v2.1','Mozilla Public License 2.0','The Unlicense','None'],
         name: 'license'
+    }, {
+        type: 'input',
+        message: 'What are the features in your project?',
+        name: 'feature'
+    }, {
+        type: 'input',
+        message: 'How can others contribute?',
+        name: 'contribution'
+    },  {
+        type: 'input',
+        message: 'How was your project tested',
+        name: 'tested'
     }
 ])
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.appendFile('log.txt', `${process.argv[2]}\n`, (err) =>
-    err ? console.error(err) : console.log('Commit logged!')
-    );
-}
+    fs.writeFile(fileName, data, (error) => {
+      if (error) {
+        console.error(error);
+      } else {
+        console.log('README.md generated successfully.');
+      }
+    });
+  }
+
+// inquirer.prompt(questions).then(generateReadme);
 
 // TODO: Create a function to initialize app
 function init() {}
