@@ -2,7 +2,7 @@
 
 ## Description
 This allows the developer to create a readme.md file using node.js
-![Example of application](../Screenshot.png)
+![Example of application](Screenshot.png)
 
 ## Table of Contents
 - [Installation](#installation)
