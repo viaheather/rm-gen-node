@@ -68,10 +68,10 @@ ${data.credits}
 ${data.license}
 
 ## Badges
-${data.licenseBadges}
+${data.license}
 
 ## Features
-${data.features}
+${data.feature}
 
 ## How to Contribute
 ${data.contribution}
