@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  const licenseLinks= {
+  const licenseLinks = {
     'Apache License 2.0': 'https://www.apache.org/licenses/LICENSE-2.0',
     'GNU General Public License v3.0': 'https://www.gnu.org/licenses/gpl-3.0.en.html',
     'MIT License': 'https://opensource.org/licenses/MIT',
@@ -65,10 +65,10 @@ ${data.usage}
 ${data.credits}
 
 ## License
-
+${data.license}
 
 ## Badges
-${data.license}
+${data.licenseBadges}
 
 ## Features
 ${data.features}
