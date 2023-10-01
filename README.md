@@ -1,8 +1,12 @@
-
-# SVG Logo Generator
+# README.md Generator
 
 ## Description
-If you don't feel like exploiting graphic designers for their quality work, then you can use this logo generator for your personal or business needs.
+This allows the developer to create a readme.md file using node.js
+![Screenshot of app](assets/Screenshot.png)
+
+### Watch the demo by clicking "View Raw":
+![Click here when you go to the link](assets/instructions-video.png)
+https://github.com/viaheather/rm-gen-node/blob/main/assets/walkthrough.mp4
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,13 +15,13 @@ If you don't feel like exploiting graphic designers for their quality work, then
 - [License](#license)
 
 ## Installation
-You will need to clone this repo's SSH keys. From there, you will open this app with your IDE. In your terminal, type in "node index" and answer the prompts.
+The user will clone this repository. The user will then enter “node index” into the terminal to be prompted questions regarding their project. 
 
 ## Usage
-Allows the user to easily create a logo with 2-3 characters and customizable colors for the font and shape.
+This saves the developer time from creating a readme from scratch. This project will take the inputs from the user to create a templated README.md for the user.
 
 ## Credits
-Diego Marrs helped me map out the logic of this assignment and Alex Brawshaw assisted me with the generateSVG() in the index file. W3Schools was a huge help, specifically at this link: https://www.w3schools.com/graphics/svg_intro.asp. Their "Try it" editor helped me build the shapes in an insolated environment outside of mine.
+This was cloned from an existing repo: https://github.com/coding-boot-camp/potential-enigma
 
 ## License
 None
@@ -26,16 +30,16 @@ None
 None
 
 ## Features
-Node.js, OOP, npm
+Node.js
 
 ## GitHub Profile
-viaheather
+https://github.com/viaheather
 
 ## Contact Information
 https://www.linkedin.com/in/viaheather/
 
 ## How to Contribute
-To contribute, feel free to fork this repo.
+If the user wishes to contribute, the user will fork this repository and create a pull request. 
 
 ## Tests
-Tested as an end-user by answering the prompts, tested shapes W3Schools, and tested with Jest.
+Followed through prompts as if I am the end user and my README.md was generated.
