@@ -73,6 +73,12 @@ ${data.license}
 ## Features
 ${data.feature}
 
+## GitHub Profile
+${data.githubUser}
+
+## Contact Information
+${data.contactUser}
+
 ## How to Contribute
 ${data.contribution}
 

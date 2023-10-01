@@ -53,7 +53,15 @@ async function getUserInput() {
         type: 'input',
         message: 'How can others contribute?',
         name: 'contribution'
-    },  {
+    }, {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'githubUser'
+    }, {
+        type: 'input',
+        message: 'How can others contact you?',
+        name: 'contactUser'
+    }, {
         type: 'input',
         message: 'How was your project tested',
         name: 'tested'
