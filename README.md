@@ -5,7 +5,7 @@ This allows the developer to create a readme.md file using node.js
 ![Screenshot of app](assets/Screenshot.png)
 
 ### Watch the demo:
-<video src="assets/video-walkthrough.mp4" controls title="Video Walkthrough"></video>
+https://github.com/viaheather/rm-gen-node/blob/main/assets/video-walkthrough.mp4
 
 ## Table of Contents
 - [Installation](#installation)
