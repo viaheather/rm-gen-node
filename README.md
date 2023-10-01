@@ -6,7 +6,7 @@ This allows the developer to create a readme.md file using node.js
 
 ### Watch the demo by clicking "View Raw":
 ![Click here when you go to the link](assets/instructions-video.png)
-https://github.com/viaheather/rm-gen-node/blob/main/assets/video-walkthrough.mp4
+https://github.com/viaheather/rm-gen-node/blob/main/assets/walkthrough.mp4
 
 ## Table of Contents
 - [Installation](#installation)
