@@ -2,10 +2,10 @@
 
 ## Description
 This allows the developer to create a readme.md file using node.js
-![Example of application](../assets/Screenshot.png)
+![README Screenshot](assets/Screenshot.png)
 
 ### Watch the demo:
-<video src="../assets/video-walkthrough.mp4" controls title="Watch the demo"></video>
+<video src="assets/video-walkthrough.mp4" controls title="Demo of App"></video>
 
 ## Table of Contents
 - [Installation](#installation)
