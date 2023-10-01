@@ -2,10 +2,10 @@
 
 ## Description
 This allows the developer to create a readme.md file using node.js
-![README Screenshot](assets/Screenshot.png)
+![Screenshot of app](assets/Screenshot.png)
 
 ### Watch the demo:
-<video src="assets/video-walkthrough.mp4" controls title="Demo of App"></video>
+<video src="assets/video-walkthrough.mp4" controls title="Video Walkthrough"></video>
 
 ## Table of Contents
 - [Installation](#installation)
@@ -30,6 +30,12 @@ None
 
 ## Features
 Node.js
+
+## GitHub Profile
+https://github.com/viaheather
+
+## Contact Information
+https://www.linkedin.com/in/viaheather/
 
 ## How to Contribute
 If the user wishes to contribute, the user will fork this repository and create a pull request. 

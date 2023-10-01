@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 async function getUserInput() {
@@ -63,7 +63,7 @@ async function getUserInput() {
         name: 'contactUser'
     }, {
         type: 'input',
-        message: 'How was your project tested',
+        message: 'How was your project tested?',
         name: 'tested'
     }
 ]);
@@ -71,7 +71,7 @@ async function getUserInput() {
 return answers;
 } catch (error) {
   console.error('Error occurred:', error);
-  throw error; // Rethrow the error to handle it elsewhere if needed
+  throw error;
 }
 }
 
