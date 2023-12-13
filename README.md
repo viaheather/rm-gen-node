@@ -35,9 +35,6 @@ Node.js
 ## GitHub Profile
 https://github.com/viaheather
 
-## Contact Information
-https://www.linkedin.com/in/viaheather/
-
 ## How to Contribute
 If the user wishes to contribute, the user will fork this repository and create a pull request. 
 
